@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>interface don</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="interface">
+      <div class="left"></div>
+      <div class="right">
+        <h3>Sharing is caring! Give us the basics about your donation.</h3>
+        <div classe="first">
+          <h4>name</h4>
+        <input type="text" class="field"
+placeholder="name">
+      </div>
+      <div classe="category">
+        <h4>catégorie</h4>
+        <select  name="menu">
+          <option disabled="disabled" selected="selected">--choisis unne option</option>
+          <option value='Vêtement'>Vêtement</option>
+          <option value='livres'>livres</option>
+          <option value='electroménager'>electroménager</option>
+        </select>
+      </div>
+      <div classe="description">
+        <h4>description de l'opération</h4>
+        <textarea class="description" placeholder="description"></textarea>
+      </div>
+        <h4 id="typeoperation">quel est l'operation à réaliser</h4>
+        <label class="radio">
+          <input class="radio-one" type="radio"  name="">
+           <span class="checkmark"></span>
+           Don
+        </label>
+        <label class="radio">
+          <input class="radio-two" type="radio"  name="">
+           <span class="checkmark"></span>
+           Demande
+        </label>
+
+         <button class="btn">save and exit</button>
+      
+      </div>
+    </div>
+
+  </div>
+</body>
